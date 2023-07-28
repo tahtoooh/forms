@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+      <label for="email">Email:</label>
+      <input type="email" id="email" required>
+
+      <label for="telephone">Telephone:</label>
+      <input type="tel" id="telephone" required>
+
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+
+      <label for="text">Text:</label>
+      <input type="text" id="text" required>
+
+      <input onclick="onSubmit()" type="button" value="Submit">
+      <input onclick="onClearBtn()" type="button" value="Clear" id="clearBtn">
+    </form>
+    <div id="response" style="display: none;"></div>
+    <div role="button" type="button" onclick="clearMsg()" id="exampleInfo" style="display: none;">
+      <p>Example Information:</p>
+      <p>Email: example@example.com</p>
+      <p>Telephone: 0612345678</p>
+      <p>Date: 2000-01-01</p>
+      <p>Text: This is an example text.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

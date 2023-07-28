@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Light gray background color */
+  }
+
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff; /* White background for the form container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow */
+  }
+  
+  h2 {
+    text-align: center;
+    color: #6c63ff; /* Blue-purple color for the form heading */
+  }
+  
+  label,
+  input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%; /* Make the inputs full width */
+  }
+  
+  input[type="submit"] {
+    margin-top: 10px;
+    background-color: #6c63ff; /* Blue-purple color for the Submit button */
+    color: #fff; /* White text color for the Submit button */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="onSubmit"]:hover {
+    background-color: #4f47d1; /* Darker shade of blue-purple on hover */
+  }
+  
+  #response {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #e1e1e1; /* Light gray background color for the response div */
+  }
+  
+  #exampleInfo {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #e1e1e1; /* Light gray background color for the example info div */
+    cursor: pointer;
+  }
+  
+  #exampleInfo p {
+    color: #8a4db2; /* Purple color for the example info paragraphs */
+  }
+  
+  .error-message {
+    color: #e57373; /* Red color for the error message text */
+    font-size: 12px; /* Adjust font size of error messages */
+    margin-top: 5px; /* Add some space between the input field and the error message */
+  }
+  
+
+
+
+  
